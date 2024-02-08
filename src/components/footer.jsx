@@ -9,6 +9,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
+import {SiBuymeacoffee} from 'react-icons/si'
 
 import logo from "./../assets/brand/logo.png";
 
@@ -100,7 +101,7 @@ function footer() {
             </div>
 
             <div className="col-2">
-              <h2>Popular  Searches:</h2>
+              <h2>Popular Searches:</h2>
               <ul>
                 <li>
                   <a href="">Apartment for Rent</a>
@@ -121,13 +122,46 @@ function footer() {
         <div className="social">
           <p>Follow us on social media!</p>
           <ul className="ul-row">
-            <li><a href=""><FaFacebookF/></a></li>
-            <li><a href=""><FaInstagram/></a></li>
-            <li><a href=""><FaTwitter/></a></li>
-            <li><a href=""><FaLinkedinIn/></a></li>
-            <li><a href=""><FaYoutube/></a></li>
-            <li><a href=""><FaTiktok/></a></li>
-            <li><a href=""><FaEnvelope/></a></li>
+            <li>
+              <a href="" title="Follow our Facebook Page">
+                <FaFacebookF />
+              </a>
+            </li>
+            <li>
+              <a href="" title="Follow us on Instagram">
+                <FaInstagram />
+              </a>
+            </li>
+            <li>
+              <a href="" title="Follow us on Twitter">
+                <FaTwitter />
+              </a>
+            </li>
+            <li>
+              <a href="" title="Connect via LinkedIn">
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li>
+              <a href="" title="Subscribe to our YouTube Channel">
+                <FaYoutube />
+              </a>
+            </li>
+            <li>
+              <a href="" title="Follow us on Tiktok">
+                <FaTiktok />
+              </a>
+            </li>
+            <li>
+              <a href="" title="Leave us Mail">
+                <FaEnvelope />
+              </a>
+            </li>
+            <li>
+              <a href="" title="Buy Me Coffee">
+                <SiBuymeacoffee />
+              </a>
+            </li>
           </ul>
         </div>
       </div>

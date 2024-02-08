@@ -192,6 +192,12 @@ select {
   transform-origin: top;
 }
 
+.truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .col-12,
 .col-11,
 .col-10,
@@ -357,6 +363,7 @@ form {
     padding: 10px 0;
     background: var(--primary-color);
     padding-bottom: 30px;
+    margin-top: -10px;
     z-index: 999;
 
     .ul-row.left {
@@ -457,6 +464,7 @@ form {
             &:hover {
               background: var(--primary-color);
               color: var(--background-color);
+              border-radius: 0;
               // transform: rotateX('90deg');
             }
           }
@@ -487,6 +495,7 @@ form {
         cursor: default;
         padding: 15px;
         border-radius: 50%;
+        border: 1px solid var(--button-hover-color);
         background: var(--primary-color);
       }
     }
@@ -665,6 +674,26 @@ form {
               color: var(--primary-color);
               background: var(--button-hover-color);
             }
+
+            &:hover::after {
+              display: block; // Display the tooltip on hover
+            }
+
+            &::after {
+              content: attr(title); // Display the title text
+              background-color: var(--button-hover-color); // Background color
+              color: var(--primary-color); // Text color
+              padding: 5px; // Padding for better appearance
+              font-size: 12px;
+              position: absolute; // Position the pseudo-element
+              top: 100%; // Position below the link
+              left: 50%; // Center horizontally
+              transform: translateX(-50%); // Center horizontally
+              border-radius: 0; // Optional: Add border-radius for rounded corners
+              z-index: 1; // Ensure the tooltip appears above other content
+              white-space: nowrap; // Prevent line breaks
+              display: none; // Hide the tooltip by default
+            }
           }
         }
       }
@@ -680,5 +709,125 @@ form {
     color: var(--background-color);
     justify-content: center;
     text-align: center;
+  }
+}
+
+/* ====== MODAL STYLES =======*/
+
+.user-modal {
+  width: 100%;
+  padding: 10px 0 0 0;
+  margin-right: 5%;
+  max-width: 260px;
+  margin-left: auto;
+  margin-top: -10px;
+  background: var(--background-color);
+
+  .modal-user-id {
+    display: flex;
+    cursor: default;
+    align-items: center;
+    background: var(--contrast-color);
+
+    img {
+      width: 50px;
+      border-radius: 50%;
+      border: 2px solid var(--info-color);
+    }
+  }
+  .modal-user-setting-list {
+    width: 100%;
+
+    .modal-user-setting {
+      display: flex;
+      cursor: pointer;
+      padding: 8px;
+      align-items: center;
+      color: var(--text-color);
+      border-top: 1px solid var(--button-hover-color);
+      transition: var(--transition);
+
+      .setting-icon {
+        padding: 8px;
+        display: flex;
+        margin-right: 3px;
+        border-radius: 50%;
+        align-items: center;
+        color: var(--background-color);
+        transition: var(--transition);
+        background: var(--text-color);
+        background: var(--button-hover-color);
+      }
+
+      &:hover .setting-icon {
+        color: white;
+        background: var(--text-color);
+      }
+
+      &:hover {
+        color: var(--background-color);
+        background: var(--button-hover-color);
+      }
+
+      &:last-child {
+        background: var(--button-hover-color);
+
+        .setting-icon {
+          background: var(--text-color);
+          transition: var(--transition);
+        }
+
+        &:hover {
+          background: var(--text-color);
+
+          .setting-icon {
+            color: var(--text-color);
+            background: var(--background-color);
+          }
+        }
+      }
+    }
+  }
+}
+
+.favourite-modal {
+  width: 100%;
+  margin-right: 5%;
+  max-width: 450px;
+  margin-left: auto;
+  background: var(--background-color);
+
+  .favourite-list {
+    background: #2196f3;
+
+    .favourite {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: -20px;
+      padding: 5px;
+
+      &:hover{
+        background: var(--button-hover-color);
+      }
+
+      div {
+        padding: 0 3px;
+      }
+
+      img {
+        width: 50px;
+      }
+      .truncate {
+        max-width: 280px;
+      }
+      button {
+        padding: 8px;
+        display: flex;
+        margin: 0 3px;
+        font-size: 14px;
+        border-radius: 50%;
+      }
+    }
   }
 }
