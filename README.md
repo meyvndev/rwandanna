@@ -9,7 +9,7 @@ Welcome to the React Vite Real Estate platform! 🏡 Discover a cutting-edge rea
 - Responsive design for optimal user experience on all devices
 
 ## Preview
-![React Vite Real Estate Preview](images/preview.png)
+![React Vite Real Estate Preview](./public/preview.png)
 
 [See the live demo](https://rwandanna.netlify.app/) to experience React Vite Real Estate in action.
 
@@ -36,6 +36,6 @@ Feel free to contribute, report issues, or suggest improvements. We welcome your
 🌐 [Follow us on Instagram](https://www.instagram.com/meyvndev)
 🐦 [Tweet us on Twitter](https://twitter.com/meyvnagency)
 📺 [Subscribe to our YouTube channel](https://youtube.com/@wearemeyvn)
-📧 Email: info.meyvn@gmail.com
+📧 [Email: info.meyvn@gmail.com](mailto:info.meyvn@gmail.com)
 
 Elevate your real estate experience with React Vite Real Estate! 🌐
