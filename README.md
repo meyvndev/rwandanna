@@ -11,7 +11,7 @@ Welcome to the React Vite Real Estate platform! 🏡 Discover a cutting-edge rea
 ## Preview
 ![React Vite Real Estate Preview](images/preview.png)
 
-[See the live demo](#) to experience React Vite Real Estate in action.
+[See the live demo](https://rwandanna.netlify.app/) to experience React Vite Real Estate in action.
 
 ## Getting Started
 1. Clone this repository to your local machine.
@@ -27,7 +27,7 @@ Welcome to the React Vite Real Estate platform! 🏡 Discover a cutting-edge rea
 - `vite.config.js`: Vite configuration file.
 
 ## Demo
-[See the live demo](#) to experience React Vite Real Estate in action.
+[See the live demo](https://rwandanna.netlify.app/) to experience React Vite Real Estate in action.
 
 ## Contribution
 Feel free to contribute, report issues, or suggest improvements. We welcome your input!
