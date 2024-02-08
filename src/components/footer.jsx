@@ -52,7 +52,7 @@ function footer() {
               <h2>Navigations</h2>
               <ul>
                 <li>
-                  <a href="">About</a>
+                  <a target="_blank" href="https://github.com/meyvndev">About</a>
                 </li>
                 <li>
                   <a href="">FAQs</a>
@@ -123,42 +123,42 @@ function footer() {
           <p>Follow us on social media!</p>
           <ul className="ul-row">
             <li>
-              <a href="" title="Follow our Facebook Page">
+              <a href="https://www.facebook.com/meyvnagency" title="Follow our Facebook Page">
                 <FaFacebookF />
               </a>
             </li>
             <li>
-              <a href="" title="Follow us on Instagram">
+              <a href="https://www.instagram.com/meyvnagency" title="Follow us on Instagram">
                 <FaInstagram />
               </a>
             </li>
             <li>
-              <a href="" title="Follow us on Twitter">
+              <a href="https://www.twitter.com/meyvnagency" title="Follow us on Twitter">
                 <FaTwitter />
               </a>
             </li>
             <li>
-              <a href="" title="Connect via LinkedIn">
+              <a href="https://www.linkedin.com/in/iwmvictor" title="Connect via LinkedIn">
                 <FaLinkedinIn />
               </a>
             </li>
             <li>
-              <a href="" title="Subscribe to our YouTube Channel">
+              <a href="https://www.youtube.com/meyvnagency" title="Subscribe to our YouTube Channel">
                 <FaYoutube />
               </a>
             </li>
             <li>
-              <a href="" title="Follow us on Tiktok">
+              <a href="https://www.tiktok.com/@meyvnco" title="Follow us on Tiktok">
                 <FaTiktok />
               </a>
             </li>
             <li>
-              <a href="" title="Leave us Mail">
+              <a href="mailto:info.meyvn@gmail.com" title="Leave us Mail">
                 <FaEnvelope />
               </a>
             </li>
             <li>
-              <a href="" title="Buy Me Coffee">
+              <a href="https://www.buymeacoffee.com/meyvn" title="Buy Me Coffee">
                 <SiBuymeacoffee />
               </a>
             </li>
@@ -167,8 +167,8 @@ function footer() {
       </div>
       <div className="copyright">
         &copy; {new Date().getFullYear()} Rwanda Luxury Marketplace - Proudly
-        developed by <a href="">Iwmvictor</a> from{" "}
-        <a href="">Meyvn Software Agency</a>
+        developed by <a href="https://www.buymeacoffee.com/iwmvictor">Iwmvictor</a> from{" "}
+        <a href="https://github.com/meyvndev">Meyvn Software Agency</a>
       </div>
     </div>
   );

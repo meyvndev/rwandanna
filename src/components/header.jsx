@@ -45,7 +45,7 @@ function header() {
             <div>
               <ul className="ul-row left">
                 <li>
-                  <a href="mailto:holidayplanner@gmail.com">
+                  <a href="mailto:info.meyvn@gmail.com">
                     <span className="icon">
                       <FaEnvelope />
                     </span>
@@ -53,7 +53,7 @@ function header() {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:1234567890">
+                  <a href="tel:250733545477">
                     <span className="icon">
                       <FaPhoneAlt />
                     </span>
@@ -66,28 +66,28 @@ function header() {
             <div>
               <ul className="ul-row right">
                 <li>
-                  <a href="">
+                  <a href="https://www.facebook.com/meyvnagency">
                     <span className="icon">
                       <FaFacebookF />
                     </span>
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="https://www.instagram.com/meyvnagency">
                     <span className="icon">
                       <FaInstagram />
                     </span>
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="https://www.twitter.com/meyvnagency">
                     <span className="icon">
                       <FaTwitter />
                     </span>
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/iwmvictor">
                     <span className="icon">
                       <FaLinkedinIn />
                     </span>
